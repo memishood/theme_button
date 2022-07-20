@@ -32,5 +32,5 @@ ThemeButton(
 | width           | double       | 72                       | The width of the view                                                       |
 | height          | double       | 72                       | The height of the view                                                      |
 | padding         | EdgeInsets   | EdgeInsets.zero          | Animation padding                                                           |
-| duration        | Duration     | Duration(seconds: 1)     | Animation speed                                                             |
+| duration        | Duration     | 1 seconds                | Animation speed                                                             |
 | onChanged       | Fun(value)   | null                     | It'll be called when the switch has been changed by the user                |
