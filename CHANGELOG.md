@@ -10,3 +10,6 @@
 
 ## 1.0.3
 * Update Readme
+
+## 1.0.4
+* Update Library Description
