@@ -2,7 +2,16 @@
 
 <h3>It ensures a switch widget for Night/Light theme modes</h3>
 
-<img src="https://github.com/memishood/theme_button/blob/main/sample.gif" height=200>
+<img src="https://raw.githubusercontent.com/memishood/theme_button/main/sample.gif" height=200>
+
+## Add Dependency
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  # add flutter_screenutil
+  theme_button: ^{latest version}
+```
 
 ## Get Started
 
@@ -18,10 +27,10 @@ ThemeButton(
 
 ### Property
 
-| Property        | Type         | Default Value        | Description                                                                 |
-| --------------- | ------------ | -------------------- | --------------------------------------------------------------------------- |
-| width           | double       | 72                   | The width of the view                                                       |
-| height          | double       | 72                   | The height of the view                                                      |
-| padding         | EdgeInsets   | EdgeInsets.zero      | Animation padding                                                           |
-| duration        | Duration     | Duration(seconds: 1) | Animation speed                                                             |
-| onChanged       | Fun(value)   | null                 | It'll be called when the switch has been changed by the user                |
+| Property        | Type         | Default Value            | Description                                                                 |
+| --------------- | ------------ | ------------------------ | --------------------------------------------------------------------------- |
+| width           | double       | 72                       | The width of the view                                                       |
+| height          | double       | 72                       | The height of the view                                                      |
+| padding         | EdgeInsets   | EdgeInsets.zero          | Animation padding                                                           |
+| duration        | Duration     | Duration(seconds: 1)     | Animation speed                                                             |
+| onChanged       | Fun(value)   | null                     | It'll be called when the switch has been changed by the user                |
