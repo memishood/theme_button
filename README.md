@@ -9,7 +9,7 @@
 dependencies:
   flutter:
     sdk: flutter
-  # add flutter_screenutil
+  # add theme_button
   theme_button: ^{latest version}
 ```
 
