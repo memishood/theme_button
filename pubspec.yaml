@@ -1,0 +1,23 @@
+name: theme_button
+description: Theme button provides a switch widget for night/light modes
+version: 1.0.0
+author: Emre Memis <emre.memis.49@gmail.com>
+homepage: https://github.com/memishood/theme_button
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - packages/theme_button/assets/animation.json
