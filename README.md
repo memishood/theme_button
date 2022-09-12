@@ -1,5 +1,7 @@
 # ThemeButton
 
+https://pub.dev/packages/theme_button
+
 <h3>It ensures a switch widget for Night/Light theme modes</h3>
 
 <img src="https://raw.githubusercontent.com/memishood/theme_button/main/sample.gif" height=200>
